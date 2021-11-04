@@ -23,48 +23,48 @@ footer a {
 
 /* HEADER */
 .header-container {
-    width: 90%;
+    width: 95%;
+    max-width: 1200px;
     margin: auto;
 }
 
 header li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
+/* Header Top */
 .header-top {
     background-color: black;
 }
 
 .logo-header-top img{
-    height: 35px;
+    height: 15px;
     width: 100%;
-    padding: 10px 0;
 }
 
+/* Header Botttom */
 .header-list-left,
 .logo-header-bottom {
     display: inline-block;
 }
 
-.header-list-left {
-    padding: 20px 0;
-}
-
 .menu-header-right {
     text-align: right;
-    padding: 15px 0;
 }
 
-.menu-header-right img{
+.lens{
     height: 25px;
     width: 100%;
 }
 
 .burger {
     border: 1px solid lightgrey;
-    padding: 5px 10px;
+    border-radius: 4px;
+    padding: 5px 15px;
     display: inline;
+    font-size: 20px;
+    color: grey;
 }
 
 .btn-dark {
@@ -72,5 +72,41 @@ header li {
     color: white;
     border-radius: 25px;
 }
+
+.single-menu-btn {
+    display: flex;
+    align-items: center;
+}
+
+.chevron {
+    height: 10px;
+    margin-left: 10px;
+}
+
+/* Hover Chevron */
+.chevron-hover {
+    display: none;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.single-icon:hover .chevron {
+    display: none;
+    cursor: pointer;
+}
+
+.single-icon:hover .chevron-hover {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* MAIN */
+/* .jumbotron {
+    height: 600px;
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 
 
