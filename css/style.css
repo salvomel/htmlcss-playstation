@@ -28,6 +28,24 @@ footer a {
     border-radius: 25px;
 }
 
+img {
+    width: 100%;
+}
+
+.section-title {
+    font-size: 40px;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    color: grey;
+    padding: 20px 0;
+}
+
+/* section {
+    margin: 20px 0;
+} */
+
 /* HEADER */
 .header-container {
     width: 95%;
@@ -51,7 +69,6 @@ header li {
 
 .logo-header-top img{
     height: 15px;
-    width: 100%;
 }
 
 /* Header Botttom */
@@ -70,7 +87,6 @@ header li {
 
 .lens{
     height: 25px;
-    width: 100%;
 }
 
 .burger {
@@ -133,6 +149,50 @@ header li {
     background-color: #cd3d0f;
 }
 
+/* Bottom Jumbotron */
+.bottom-jumbo {
+    padding: 40px 0;
+}
+
+.img-thumb img {
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 2px;
+}
+
+.img-thumb {
+    margin-bottom: 20px;
+}
+
+.border-selected {
+    border: 2px solid #177ed2;
+    border-radius: 20px;
+}
+
+/* Section Playstation 5 */
+.play-title {
+    text-align: center;
+}
+
+.play-title h6 {
+    color: #0775cf;
+    font-size: 15px;
+}
+
+.play-thumb {
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #2d64e6;
+}
+
+@media (min-width: 768px) {
+
+    .play-thumb img {
+        width: 50%;
+    }
+}
 
 
 
