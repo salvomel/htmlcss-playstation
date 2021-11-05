@@ -2,6 +2,8 @@
 header {
     font-family: Helvetica, arial, sans-serif;
     color: black;
+    width: 100%;
+    /* position: fixed; */
 }
 
 body{
@@ -21,10 +23,15 @@ footer a {
     color: inherit;
 }
 
+.btn-common {
+    color: white;
+    border-radius: 25px;
+}
+
 /* HEADER */
 .header-container {
     width: 95%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -36,6 +43,10 @@ header li {
 /* Header Top */
 .header-top {
     background-color: black;
+}
+
+.header-bottom {
+    background-color: white;
 }
 
 .logo-header-top img{
@@ -53,6 +64,10 @@ header li {
     text-align: right;
 }
 
+.btn-dark {
+    background-color: #363636;
+}
+
 .lens{
     height: 25px;
     width: 100%;
@@ -65,12 +80,6 @@ header li {
     display: inline;
     font-size: 20px;
     color: grey;
-}
-
-.btn-dark {
-    background-color: #363636;
-    color: white;
-    border-radius: 25px;
 }
 
 .single-menu-btn {
@@ -101,12 +110,29 @@ header li {
 }
 
 /* MAIN */
-/* .jumbotron {
+
+.jumbotron {
     height: 600px;
+    max-width: 100%;
     background-image: url("../img/jumbo-bg.png");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+    color: white;
+}
+
+.img-jumbo {
+    padding: 20px 0;
+}
+
+ .jumbo-text p {
+    padding: 20px 0;
+}
+
+.btn-red {
+    background-color: #cd3d0f;
+}
+
 
 
 
