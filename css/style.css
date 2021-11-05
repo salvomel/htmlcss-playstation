@@ -132,9 +132,7 @@ header li {
 
 /* Jumbotron */
 .jumbotron {
-    height: 600px;
     max-width: 100%;
-    background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,6 +152,11 @@ header li {
 
 .jumbo-text p {
     padding: 20px 0;
+}
+
+.jumbo-1 {
+    background-image: url("../img/jumbo-bg.png");
+    height: 600px;
 }
 
 .btn-red {
@@ -191,7 +194,7 @@ header li {
 }
 
 .console {
-   padding: 30px 0;
+   padding-top: 30px;
 }
 
 .play-thumb {
@@ -223,5 +226,10 @@ header li {
     }
 }
 
+/* Jumbo 2 */
+.jumbo-2 {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 700px;
+}
 
 
