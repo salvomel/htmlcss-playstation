@@ -45,10 +45,6 @@ img {
     padding: 20px 0;
 }
 
-section {
-    margin-bottom: 25px;
-}
-
 /* HEADER */
 .header-container {
     width: 95%;
@@ -130,7 +126,7 @@ header li {
 
 /* MAIN */
 
-/* Jumbotron */
+/* Jumbotron Common */
 .jumbotron {
     max-width: 100%;
     background-position: center;
@@ -154,6 +150,7 @@ header li {
     padding: 20px 0;
 }
 
+/* Jumbo 1 */
 .jumbo-1 {
     background-image: url("../img/jumbo-bg.png");
     height: 600px;
@@ -163,9 +160,9 @@ header li {
     background-color: #cd3d0f;
 }
 
-/* Bottom Jumbotron */
+/* Bottom Jumbo */
 .bottom-jumbo {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .img-thumb img {
@@ -184,11 +181,11 @@ header li {
 }
 
 /* Section Playstation 5 */
-.play-title {
+.ps-title {
     text-align: center;
 }
 
-.play-title h6 {
+.ps-title h6 {
     color: #0775cf;
     font-size: 15px;
 }
@@ -197,16 +194,16 @@ header li {
    padding-top: 30px;
 }
 
-.play-thumb {
+.ps-thumb {
     text-align: center;
     opacity: 0.7;
 }
 
-.play-thumb-selected {
+.ps-thumb-selected {
     opacity: 1;
 }
 
-.play-thumb-selected::after {
+.ps-thumb-selected::after {
     display: block;
 	content: '';
 	width: 100%;
@@ -221,7 +218,7 @@ header li {
 
 @media (min-width: 768px) {
 
-    .play-thumb img {
+    .ps-thumb img {
         width: 50%;
     }
 }
@@ -231,5 +228,26 @@ header li {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     height: 700px;
 }
+
+/* Section Nuove Uscite */
+.new-games {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.new-title h3 {
+    padding-bottom: 10px;
+}
+
+.single-game-card img {
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.single-game-card {
+    margin: 20px 0;
+}
+
+
 
 
