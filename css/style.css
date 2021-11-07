@@ -1,14 +1,4 @@
 /* COMMON */
-header {
-    font-family: Helvetica, arial, sans-serif;
-    color: black;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
-
 body{
     font-family: Arial, sans-serif; 
 }
@@ -46,9 +36,18 @@ img {
 }
 
 /* HEADER */
+header {
+    font-family: Helvetica, arial, sans-serif;
+    color: black;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
 .header-container {
-    width: 95%;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -67,13 +66,16 @@ header li {
 }
 
 .logo-header-top img{
-    height: 15px;
+    height: 14px;
 }
 
 /* Header Botttom */
-.header-list-left,
-.logo-header-bottom {
-    display: inline-block;
+.logo-header-bottom img {
+   height: 50px;
+}
+
+.header-list-left li {
+    margin-right: 5px;
 }
 
 .menu-header-right {
@@ -86,6 +88,7 @@ header li {
 
 .lens{
     height: 25px;
+    cursor: pointer;
 }
 
 .burger {
@@ -104,14 +107,14 @@ header li {
 
 .chevron {
     height: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 /* Hover Chevron */
 .chevron-hover {
     display: none;
     height: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .single-icon:hover .chevron {
@@ -126,7 +129,7 @@ header li {
 
 /* MAIN */
 
-/* Jumbotron Common */
+/* Jumbotron 1/2 Common */
 .jumbotron {
     max-width: 100%;
     background-position: center;
@@ -161,10 +164,6 @@ header li {
 }
 
 /* Bottom Jumbo */
-.bottom-jumbo {
-    padding: 30px 0;
-}
-
 .img-thumb img {
     border-radius: 20px;
     border: 2px solid transparent;
@@ -268,9 +267,70 @@ header li {
 .ps-now-text p {
     color: white;
 }
+
 .btn-white {
     color: black;
     background-color: white;
+}
+
+ /* Labels R-TM-C */
+.re-label {
+    font-size: 15px;
+    vertical-align: super;
+}
+
+.tm-label {
+    font-size: 9px;
+    vertical-align: super;
+}
+
+.cr-label  {
+    font-size: 12px;
+    vertical-align: text-bottom;
+}
+
+/* Socials */
+.social-links {
+    max-width: 550px;
+    margin: auto;
+}
+
+.socials h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: #00439c;
+    color: white;
+    font-size: 15px;
+    padding: 80px 0;
+}
+
+.logo-footer-top img {
+    height: 75px;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.logo-footer-bottom img {
+    height: 50px;
+}
+
+#img-globe {
+    height: 20px;
+}
+
+#more-info {
+    text-decoration: underline;
 }
 
 
