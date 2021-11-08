@@ -35,6 +35,30 @@ img {
     padding: 20px 0;
 }
 
+/* Jumbotron 1/2 Common */
+.jumbo-common {
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.jumbo-content {
+    position: absolute;
+    bottom: 50px;
+}
+
+.img-jumbo {
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+.jumbo-text p {
+    padding: 20px 0;
+}
+
 /* HEADER */
 header {
     font-family: Helvetica, arial, sans-serif;
@@ -42,7 +66,6 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
-    left: 0;
     z-index: 2;
 }
 
@@ -129,30 +152,6 @@ header li {
 
 /* MAIN */
 
-/* Jumbotron 1/2 Common */
-.jumbotron {
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    position: relative;
-}
-
-.jumbo-content {
-    position: absolute;
-    bottom: 50px;
-}
-
-.img-jumbo {
-    width: 60%;
-    padding-bottom: 30px;
-}
-
-.jumbo-text p {
-    padding: 20px 0;
-}
-
 /* Jumbo 1 */
 .jumbo-1 {
     background-image: url("../img/jumbo-bg.png");
@@ -172,11 +171,26 @@ header li {
 
 .img-thumb {
     margin-bottom: 20px;
+    animation-duration: 650ms;
+    animation-iteration-count: 1;
 }
 
 .border-selected {
     border: 2px solid #177ed2;
     border-radius: 20px;
+}
+
+/* Animations cards*/
+.img-thumb:hover {
+    animation-name: jump;
+    animation-timing-function: ease-out;
+    cursor: pointer;
+}
+
+@keyframes jump {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
 }
 
 /* Section Playstation 5 */
