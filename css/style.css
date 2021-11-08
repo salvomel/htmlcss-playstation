@@ -1,6 +1,6 @@
 /* COMMON */
 body{
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
 }
 
 header ul,
@@ -43,6 +43,7 @@ img {
     background-size: cover;
     color: white;
     position: relative;
+    overflow: hidden;
 }
 
 .jumbo-content {
