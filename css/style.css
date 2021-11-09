@@ -287,6 +287,19 @@ header li {
     background-color: white;
 }
 
+.ps-now,
+.ps-plus {
+        padding: 30px 0;
+    }
+
+@media (min-width: 768px) {
+
+    .ps-now,
+    .ps-plus {
+        padding: 0;
+    }
+}
+
  /* Labels R-TM-C */
 .re-label {
     font-size: 15px;
